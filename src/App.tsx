@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import {Background } from './components/index';
+import {Background, Contents } from './components/index';
 
 function App() {
   return (
     <div>
     <Background />
+    <Contents />
     </div>
   );
 }

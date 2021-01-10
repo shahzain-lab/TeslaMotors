@@ -1,0 +1,9 @@
+.bodyCont{
+    margin: 10% 0;
+    width: 100vw;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;background: rgb(35,35,35);
+    background: radial-gradient(circle, rgba(35,35,35,1) 45%, rgba(0,0,0,1) 100%);
+}
