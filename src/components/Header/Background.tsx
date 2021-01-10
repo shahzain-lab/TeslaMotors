@@ -5,7 +5,7 @@ import TeslaLogo from '../../images/TeslaLogo.png'
 
 export const Background = () => {
     return (
-        <div className="big">
+        <div className="Front">
         <div className="background">
             <img className="teslaLogo" src={TeslaLogo} alt="tesla"/>
             <div className="top_left">
