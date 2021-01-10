@@ -18,5 +18,6 @@ export const Contents = () => {
             <img src={car1} alt=""width="50%"/>
         </div>
         </div>
+
     )
 }
