@@ -1,16 +1,45 @@
+.big{
+    width: 100vw;
+    height: 100vh;
+}
 
+.teslaLogo{
+  width: 15%;
+  float: right;
+  margin:1% 2%;
+}
+.header{
+    width: 75%;
+    height: 80%;
+    background-image: url(../../images/darkcar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius:1.6rem;
+    position: absolute;
+    box-shadow: 2px 4px 17px 5px rgba(80,76,76,0.75);
+-webkit-box-shadow: 2px 4px 17px 5px rgba(80,76,76,0.75);
+-moz-box-shadow: 2px 4px 17px 5px rgba(80,76,76,0.75);
+    top: 15%;
+    left: 13%;
+}
+.header h4{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
 .background{
     width: 100vw;
     height: 100vh;
     display: block;
 }
+
 .top_left{
-    width: 40%;
+    width: 100%;
     height: 50%;
     background: rgb(190,172,3);
     background: linear-gradient(90deg, rgb(233, 210, 3) 4%, rgba(226,208,23,1) 20%, rgba(231,213,13,1) 35%, rgba(236,241,13,1) 100%, rgba(103,103,103,1) 100%);
-    clip-path: polygon(0 100%, 0 0, 100% 0);
+    clip-path: polygon(0 100%, 0 0, 40% 0);
 }
 .bottom_right{
     width: 40%;
