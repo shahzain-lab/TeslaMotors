@@ -1,0 +1,22 @@
+
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    display: block;
+}
+.top_left{
+    width: 40%;
+    height: 50%;
+    background: rgb(190,172,3);
+    background: linear-gradient(90deg, rgb(233, 210, 3) 4%, rgba(226,208,23,1) 20%, rgba(231,213,13,1) 35%, rgba(236,241,13,1) 100%, rgba(103,103,103,1) 100%);
+    clip-path: polygon(0 100%, 0 0, 100% 0);
+}
+.bottom_right{
+    width: 40%;
+    height: 50%;
+    clip-path: polygon(0 100%, 100% 100%, 100% 0);
+    background: rgb(249,255,0);
+    background: linear-gradient(90deg, rgba(249,255,0,1) 0%, rgba(242,247,9,1) 34%, rgba(214,219,0,1) 68%, rgba(189,194,0,1) 100%);
+    float: right;
+}
