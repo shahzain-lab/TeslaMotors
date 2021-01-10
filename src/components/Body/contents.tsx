@@ -13,9 +13,9 @@ export const Contents = () => {
         <div className="contentsBody">
             <div className="contentsHead">
             <h3>Model-Y</h3>
-            <p>Model-Y is a fully electric, mid-size SUV, with seating for up to seven, dual motor AWD and unparalleled protection.Model Y is a fully electric, mid-size SUV, with seating for up to seven, dual motor AWD and unparalleled protection.The Tesla Model-Y is an excellent crossover vehicle. It successfully builds on the style,technology, and value pioneered by the Model 3 sedan as it brings new functionality to buyers who want the look, and the capability of an SUV.</p>
+            <p>Model-Y is a fully electric, mid-size SUV, with seating for up to seven,<br /> dual motor AWD and unparalleled protection.Model Y is a fully electric,<br /> mid-size SUV, with seating for up to seven, dual motor AWD and <br />unparalleled protection.The Tesla Model-Y is an excellent crossover vehicle.It successfully builds on the style,technology, and value pioneered by the Model 3 sedan as it brings new functionality.</p>
             </div>
-            <img src={car1} alt=""width="100%"/>
+            <img src={car1} alt=""width="50%"/>
         </div>
         </div>
     )
