@@ -1,6 +1,7 @@
 import React from 'react'
 import interior1 from '../../images/interior1.jpg';
 import interior2 from '../../images/interior2.jpg'
+import car2  from '../../images/car2.jpg'
 
 export const Interior = () => {
     return (
@@ -13,6 +14,7 @@ export const Interior = () => {
                 <div className="Interiorimgs">
                 <img src={interior1} alt=""/>
                 <img src={interior2} alt=""/>
+                <img src={car2} alt=""/>
             </div>
             </div>
             </div>
