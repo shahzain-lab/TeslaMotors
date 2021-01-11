@@ -9,10 +9,20 @@ export const Subscribe = () => {
             <p>Tesla will notify you through an alert on your car's touchscreen and Tesla mobile app.</p>
             </div>
             <div className="contentForm">
+              <p>Login to get subscription to our newsletter</p>
                 <br />
                 <input 
                   type="text"
-                  placeholder="Email Address"
+                  placeholder="Username"
+                />
+                <input 
+                  type="password"
+                  placeholder="Enter password"
+                />
+                <br />
+                <input 
+                 type="email"
+                 placeholder="Enter password"
                 />
                 <br />
                 <textarea 
