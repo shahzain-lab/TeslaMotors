@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './body.css'
 import Carousel from 'react-bootstrap/Carousel'
 import modelS from '../../images/modelS.jpg';
@@ -47,8 +47,8 @@ export const FeedBack = () => {
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3>Model-S</h3>
+      <p>Model S sets an industry standard for performance and safety.</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

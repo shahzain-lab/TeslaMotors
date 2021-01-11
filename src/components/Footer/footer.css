@@ -1,8 +1,7 @@
 .Footer{
-    margin-top: 1%;
     width: 100vw;
-    height: 50vh;
-    background-image: url(../../images/car4.jpg);
+    height: 100vh;
+    background-image: url(../../images/car3.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
 }
