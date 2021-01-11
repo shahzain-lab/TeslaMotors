@@ -8,8 +8,8 @@ function App() {
     <Background />
     <Contents />
     <Interior />
-    <FeedBack />
     <Subscribe />
+    <FeedBack />
     <Footer />
     </div>
   );
