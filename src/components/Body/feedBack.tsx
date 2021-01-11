@@ -42,7 +42,7 @@ export const FeedBack = () => {
     width="100%"
     height="100%"
       className="d-block w-100"
-      src={interior}
+      src={modelS}
       alt="Third slide"
     />
 
