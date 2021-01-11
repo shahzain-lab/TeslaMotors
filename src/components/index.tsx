@@ -3,3 +3,4 @@ export { Contents } from './Body/contents';
 export { Interior } from './Body/Interior';
 export { FeedBack } from './Body/feedBack';
 export { Subscribe } from './Contact/Subscribe';
+export { Footer } from './Footer/Footer';
