@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Background, Contents, Interior } from './components/index';
+import {Background, Contents, Interior, FeedBack, Subscribe } from './components/index';
 
 function App() {
   return (
@@ -8,6 +8,8 @@ function App() {
     <Background />
     <Contents />
     <Interior />
+    <FeedBack />
+    <Subscribe />
     </div>
   );
 }

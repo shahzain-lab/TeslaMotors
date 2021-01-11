@@ -35,7 +35,7 @@
     width: 100vw;
     height: 100vh;
     background-image: url(../../images/car2.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .InteriorClip{
@@ -55,4 +55,19 @@
 .InteriorClip p {
     padding: 0 2rem;
     font-size: 1rem;
+}
+.Interiorimgs{
+    display: flex;
+    justify-content: space-around;
+}
+.Interiorimgs img{
+  width: 20%;
+  border-radius: 4rem;
+}
+.interiorImgCon{
+    margin-top: 15%;
+    text-align: center;
+}
+.interiorImgCon h4{
+    text-transform: uppercase;
 }

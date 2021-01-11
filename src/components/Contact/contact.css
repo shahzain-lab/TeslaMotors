@@ -1,0 +1,49 @@
+.contact{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../images/car3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+.contactMainDiv{
+  padding-top: 5%;
+}
+.contentForm{
+    padding-top: 3%;
+}
+.contentForm label{
+    text-align: start;
+}
+.contentForm input{
+   width: 30%;
+   background: transparent;
+   outline: none;
+   color: #b1b11f;
+   font-size: 1rem;
+   padding: .5rem .6rem;
+   border-radius: 2rem;
+}
+.contentForm textarea{
+    width: 30%;
+    background: transparent;
+    color: #b1b11f;
+    margin-top: 2%;
+}
+.contentBtn{
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: #d6b709;
+    padding: .5rem 4%;
+    border-radius: 2rem;
+    border: none;
+    outline: none!important;
+    color: #bebebe;
+    margin-top:3%;
+    transition: .2s;
+}
+.contentBtn:hover{
+    background: transparent;
+    color: #ecec12;
+    border: 2px solid #ecec12;
+}
